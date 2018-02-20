@@ -117,7 +117,7 @@ bool isMajority(int a[], int size, int cand)
 /* Driver function to test above functions */
 int main()
 {
-    int a[] = {1, 3, 3, 1, 2};
+    int a[] = {2, 2, 3, 5, 2, 2, 6};
     int size = (sizeof(a))/sizeof(a[0]);
     printMajority(a, size);
     getchar();
